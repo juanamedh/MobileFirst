@@ -48,7 +48,7 @@ header img {
     align-self: center;
 }
 
-.header--title-container {
+.header__title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -58,14 +58,14 @@ header img {
     align-self: center;
 }
 
-.header--title-container h1 {
+.header__title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--title-container p {
+.header__title-container p {
     margin-top: 25px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -73,7 +73,7 @@ header img {
     color: var(--soft-orange);
 }
 
-.header--title-container .header--button {
+.header__title-container .header__button {
     position: absolute;
     left: calc(50% - 114.5px);
     top: 270px;
@@ -92,7 +92,7 @@ header img {
     text-decoration: none;
     color: var(--black);
 }
-.header--button span {
+.header__button span {
     display: inline-block;
     width: 13px;
     height: 8px;
@@ -114,7 +114,7 @@ main {
     text-align: center;
 }
 
-.main-exchange-container--title {
+.main-exchange-container__title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -146,4 +146,12 @@ main {
     font-weight: 500;
     line-height: 1.6rem;
     color: #757575;
+ }
+ .main-currencies__container {
+    width: 70%;
+    min-width: 235px;
+    max-width: 360px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
  }
