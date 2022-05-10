@@ -231,3 +231,20 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.main-currencies__container .main-currencies__date {
+    display: inline-block;
+    width: 200px;
+    height: 31px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+}
+
+.main-currencies__date p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin: 8px auto;
+}
