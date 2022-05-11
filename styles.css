@@ -370,7 +370,12 @@ main {
     width: 90%;
     min-width: 288px;
     height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-    
+    margin: 0 auto
+}
+.plans-container__title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
 }
