@@ -370,7 +370,8 @@ main {
     width: 90%;
     min-width: 288px;
     height: auto;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .plans-container__title h2 {
     padding-top: 50px;
@@ -378,4 +379,11 @@ main {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
+}
+.plans-container__title p {
+    padding-top:  30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
 }
