@@ -349,4 +349,13 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin-banner-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
