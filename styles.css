@@ -340,3 +340,10 @@ main {
 .circle-icon {
     background-image: url('./assets/icons/check-circle.svg');
 }
+
+.bitcoin-banner-container {
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+}
