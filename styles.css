@@ -367,6 +367,13 @@ main {
     padding-bottom: 70px;
     text-align: center;
 }
+.plans-container__slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container__title {
     width: 90%;
     min-width: 288px;
@@ -391,11 +398,12 @@ main {
 
 .slider__plan-card  {
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -453,6 +461,9 @@ p.recommended {
     line-height: 1.8rem;
     color: var(--black);
     font-family: "DM Sans", sans-serif;
+}
+.plan-card--monthly-plan .plan-card__cta {
+    margin-top: 50px;
 }
 
 .plan-card__cta span {
