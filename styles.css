@@ -427,11 +427,16 @@ p.recommended {
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
-    line-height: 6.3rem;
+    line-height: 6.2rem;
     color: var(--black);
 }
 
 .plan-card__price sup {
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+.plan-card__saving {
+    font-size: 1.2rem;
+    color: #757575;
 }
