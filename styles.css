@@ -149,9 +149,16 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-currencies {
+    display: flex;
+    align-items: baseline;
+    overflow-x: scroll; 
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    padding: 1rem 0;
 
+}
 .main-currencies .main-currencies__container {
-    position: relative;
     scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
@@ -256,7 +263,6 @@ main {
 }
 
 .main-currencies .main-commissions__container {
-    position: relative;
     scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
