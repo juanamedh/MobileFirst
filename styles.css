@@ -439,6 +439,7 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -455,6 +456,7 @@ main {
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
+    align-items: center;
 }
 .plans-container__slider {
     display: flex;
