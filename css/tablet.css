@@ -1,3 +1,20 @@
+.main-currencies {
+    display: flex;
+    justify-content: center;
+}
+.currencies-table__container, .main-commissions__container {
+    display: inline-block;
+    width: 49%;
+}
+
+.product-details__main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 930px;
+    margin: 0 auto;
+}
+
 .plans-container__slider {
     justify-content: center;
 }
